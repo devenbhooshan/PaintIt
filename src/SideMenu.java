@@ -88,7 +88,7 @@ public class SideMenu extends JPanel implements MouseListener,ItemListener,Actio
 		JPanel tools[]=new JPanel[tool_names.length];
 		for (int i = 0; i < tools.length; i++) {
 			tools[i]=new JPanel();
-			BufferedImage myPicture = ImageIO.read(new File(tool_names[i]+".png"));
+			BufferedImage myPicture = ImageIO.read(new File("images/"+tool_names[i]+".png"));
 			Image dimg = myPicture.getScaledInstance(45, 45,
 					Image.SCALE_SMOOTH);
 			JLabel picLabel = new JLabel(new ImageIcon(dimg));
@@ -131,7 +131,7 @@ public class SideMenu extends JPanel implements MouseListener,ItemListener,Actio
 		 * 		Import Export
 		 */
 		JPanel i_e=new JPanel();
-		BufferedImage myPicture = ImageIO.read(new File("Save.png"));
+		BufferedImage myPicture = ImageIO.read(new File("images/Save.png"));
 		Image dimg = myPicture.getScaledInstance(50, 50,
 				Image.SCALE_SMOOTH);
 		JLabel picLabel = new JLabel(new ImageIcon(dimg));
@@ -139,7 +139,7 @@ public class SideMenu extends JPanel implements MouseListener,ItemListener,Actio
 		picLabel.addMouseListener(this);
 		picLabel.setName("SAVE");
 		i_e.add(picLabel);
-		myPicture = ImageIO.read(new File("upload.jpeg"));
+		myPicture = ImageIO.read(new File("images/upload.jpeg"));
 		dimg = myPicture.getScaledInstance(50, 50,
 				Image.SCALE_SMOOTH);
 		JLabel upload = new JLabel(new ImageIcon(dimg));
