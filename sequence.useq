@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.4" icons="true">  
+  <object id="1" language="java" name="Main" project="Paint" file="/Paint/src/Main.java" binary="false" label="main" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="75" y="0"/>    
+    <execution id="2">      
+      <position height="57" width="0" x="0" y="73"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="GUI" project="Paint" file="/Paint/src/GUI.java" binary="false" label="gui1" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="19" width="0" x="0" y="92"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="57" width="0" x="0" y="182"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="57" width="0" x="0" y="305"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="DrawArea" project="Paint" file="/Paint/src/DrawArea.java" binary="false" 
+    label="drawArea" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="19" width="0" x="0" y="324"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="57" width="0" x="0" y="92"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="57" width="0" x="0" y="189"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="57" width="0" x="0" y="272"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="57" width="0" x="0" y="362"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="57" width="0" x="0" y="431"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="57" width="0" x="0" y="505"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu6" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="30">      
+      <position height="19" width="0" x="0" y="524"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu5" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="27">      
+      <position height="19" width="0" x="0" y="450"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu4" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="24">      
+      <position height="19" width="0" x="0" y="381"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu3" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="19" width="0" x="0" y="291"/>    
+    </execution>  
+  </object>  
+  <object id="35" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu2" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="18">      
+      <position height="19" width="0" x="0" y="208"/>    
+    </execution>  
+  </object>  
+  <object id="36" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu1" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="15">      
+      <position height="19" width="0" x="0" y="111"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="SideMenu" project="Paint" file="/Paint/src/SideMenu.java" binary="false" 
+    label="sideMenu" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="19" width="0" x="0" y="201"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="GUI()">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="SideMenu()">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="DrawArea()">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="14" operation="getInputText():java.lang.String">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="17" operation="getSelectedFont():int">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="20" operation="getSelectedForeColor():java.awt.Color">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="23" operation="getSelectedTool():int">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="26" operation="getStrokeSize():int">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="29" operation="setForeColor(java.awt.Color):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>
+</sequence-diagram>
